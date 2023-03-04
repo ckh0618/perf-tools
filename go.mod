@@ -3,6 +3,7 @@ module han-mongodb
 go 1.19
 
 require (
+	github.com/Netflix/go-env v0.0.0-20220526054621-78278af1949d
 	github.com/kamva/mgm/v3 v3.5.0
 	github.com/labstack/echo/v4 v4.10.0
 	github.com/sirupsen/logrus v1.9.0
@@ -13,7 +14,6 @@ require (
 )
 
 require (
-	github.com/Netflix/go-env v0.0.0-20220526054621-78278af1949d // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.12.0 // indirect
 	github.com/go-stomp/stomp/v3 v3.0.3 // indirect
